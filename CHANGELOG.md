@@ -1,5 +1,11 @@
 ## Next Release
 
+## 4.3.0
+
+* Fix reloading issue in Ruby 3.3.
+* Fixed compatibility with `--enable-frozen-string-literal`.
+* Add embeded engines to default reload matcher.
+
 ## 4.2.1
 
 * Added `Spring.connect_timeout` and `Spring.boot_timeout` to allow to increase timeout for larger apps.
